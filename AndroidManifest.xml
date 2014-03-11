@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.tile.locationplace"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="11"
+        android:targetSdkVersion="17" />
+    
+    
+    
+    <!-- Dùng để load bản đồ 2D -->
+    <uses-feature
+        android:glEsVersion="0x00020000"
+        android:required="true" />
+    <!-- Khai báo quyền để project có thể sử dụng Google map key -->
+    <permission
+        android:name="com.tile.LocationPlace.permission.MAPS_RECEIVE"
+        android:protectionLevel="signature" >
+    </permission>
+
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="com.tile.LocationPlace.permission.MAPS_RECEIVE" />
+    <!-- Quyền truy cập maps cần thiết -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+
+    <!-- Quyền sử dụng GPS, tìm vị trí -->
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    
+    
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.tile.locationplace.MainLocationPlace"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+          <!-- Google Map key -->
+        <meta-data
+            android:name="com.google.android.maps.v2.API_KEY"
+            android:value="@string/key" />
+        
+        
+        
+    </application>
+
+</manifest>

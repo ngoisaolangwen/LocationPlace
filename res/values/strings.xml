@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">LocationPlace</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    
+    
+    <!-- Key -->
+    <string name="key">AIzaSyA7jGRf-YRExDCXL_NAsBvt9EaHCDCROS4</string>
+    <string name="title_activity_google_map">GoogleMap</string>
+    <string name="title_activity_find_atm">Tìm ATM</string>
+    <string name="title_activity_find_food">Tìm Quán Ăn</string>
+    <string name="title_activity_atm_grid_view">AtmGridView</string>
+    <string name="title_activity_list_atm">ATM</string>
+    <string name="title_activity_atm_google_map">Map</string>
+    <string name="title_activity_food_list">Quán Ăn</string>
+    <string name="title_activity_food_fragment">Quán Ăn</string>
+    <string name="title_activity_food_google_map">Map</string>
+    <string name="title_activity_food_fragment_c">Quán Ăn</string>
+    <string name="title_activity_food_fragment_s">Quán Ăn</string>
+    <string name="title_activity_locations_like">Địa Điểm</string>
+    <string name="title_activity_list_atm_find">Danh Sách ATM</string>
+    <string name="title_activity_add_food">Thêm Quán Ăn</string>
+    <string name="title_activity_food_list_find">Quán Ăn</string>
+    <string name="app_info">       	Ứng Dụng Tìm Kiếm Địa Điểm.				
+        	Version 1.0.0			
+        	
+       Người phát triển:			
+        	Huỳnh Văn Đạt Em.			
+        	Nguyễn Ngói.			
+        						
+   Email: NguyenNgoi9190@gmail.com.			
+</string>
+    <string name="title_activity_screen">Screen</string>
+
+</resources>

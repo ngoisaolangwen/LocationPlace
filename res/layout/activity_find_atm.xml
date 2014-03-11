@@ -1,0 +1,88 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".FindATM" >
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tên ATM" />
+
+    <Spinner
+        android:id="@+id/sp_ten_atm"
+        android:layout_width="match_parent"
+        android:layout_height="44dp" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tỉnh/Thành Phố" />
+
+    <Spinner
+        android:id="@+id/sp_ttp_atm"
+        android:layout_width="match_parent"
+        android:layout_height="44dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Quận/Huyện" />
+
+    <Spinner
+        android:id="@+id/sp_qh_atm"
+        android:layout_width="match_parent"
+        android:layout_height="44dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Phường/Thị Xã" />
+
+    <Spinner
+        android:id="@+id/sp_ptx_atm"
+        android:layout_width="match_parent"
+        android:layout_height="44dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <CheckBox
+            android:id="@+id/cb_tenduong_atm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tên đường" />
+
+        <LinearLayout
+            android:id="@+id/FragmentTenDuong_atm"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <EditText
+                android:id="@+id/ed_tenduong_atm"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:enabled="false" >
+
+                <requestFocus />
+            </EditText>
+        </LinearLayout>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_tim_atm"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Tìm" />
+
+</LinearLayout>

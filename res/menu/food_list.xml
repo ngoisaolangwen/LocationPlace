@@ -1,0 +1,18 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+   <item
+        android:id="@+id/add"
+        android:icon="@drawable/add"
+        android:title="Thêm Quán Ăn">
+        <menu>
+            <item android:id="@+id/item1" android:title="Thêm tại đây"/>
+            <item android:id="@+id/item2" android:title="Thêm một vị trí bất kì."/>
+        </menu>
+    </item>
+    <item
+        android:id="@+id/find"
+        android:icon="@drawable/search"
+        android:title="Tìm Quán Ăn"/>
+
+
+</menu>
